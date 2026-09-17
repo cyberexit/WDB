@@ -1,3 +1,9 @@
+## Credits
+
+This project is based on the original work by [daniellowrie]
+
+I have modified and adapted it into "WDB".
+
 # SecUp "Malware for Learning"
 
 !!! FOR SECURITY TESTING PURPOSES ONLY !!! <br>
@@ -8,11 +14,9 @@ OWN UNLESS YOU HAVE EXPRESS PERMISSION !!!
 Fileless malware that bypasses Windows Defender using PowerShell and obfuscation. <br>
 Just a simple Reverse Shell using a batch script to kick things off, after which everything is fileless.
 
-YouTube video demonstration and explanation >>> https://youtu.be/LjoAV3O40og
-
 Setup and Execution<br>
 1. Clone this repo<br>
-`git clone https://github.com/daniellowrie/update_script`
+`git clone https://github.com/cyberexit/WDB`
 2. Build **SecUp.go**<br>
 `go build SecUp.go`
 3. Run **SecUp <LHOST>**<br>
@@ -42,7 +46,5 @@ Going to work on building a better mousetrap as this was just a PoC at making so
 
 
 
-
-https://github.com/daniellowrie/update_script/assets/19762230/a83d13e4-108f-4406-b307-bf18704d4278
 
 
